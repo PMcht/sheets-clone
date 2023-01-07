@@ -1,11 +1,10 @@
-import React, { ChangeEvent, ComponentType, FunctionComponent, useEffect, useRef, useState } from 'react';
+import React, { ChangeEvent, ComponentType, FunctionComponent, ReactNode, useEffect, useRef, useState } from 'react';
 import { atom, useRecoilState } from 'recoil';
 import { CellValueState } from '../../store/CellValueState';
 
 
-export type CellProps = {
-    children: ComponentType | string;
-}
+export type CellProps<P = unknown> = P & { children?: ReactNode | undefined };
+
 
 const Cell: FunctionComponent<CellProps> = (props) => {
 
