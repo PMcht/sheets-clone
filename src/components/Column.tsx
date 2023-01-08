@@ -1,5 +1,5 @@
-import React, { ComponentType, FunctionComponent, ReactNode } from "react";
-import classes from "./Column.module.css";
+import React, { FunctionComponent, ReactNode } from "react";
+import classes from "./styles.module.css"
 
 export type ColumnProps<P = unknown> = P & { children?: ReactNode | undefined };
 

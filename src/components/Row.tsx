@@ -1,5 +1,5 @@
 import React, { FunctionComponent, ReactNode } from "react";
-import classes from "./Row.module.css"
+import classes from "./styles.module.css"
 
 export type RowProps<P = unknown> = P & { children?: ReactNode | undefined };
 
