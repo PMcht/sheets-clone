@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id="readme-top">
-   <img src="url=('https://cdn.worldvectorlogo.com/logos/google-sheets-full-logo-1.svg')" alt="Logo" width="auto" height="80">
+   <img src="./public/google-sheets-full-logo-1.svg" alt="Logo" width="auto" height="200">
 
   <h3 align="center">Google Sheets Clone</h3>
 
