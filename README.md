@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" id="readme-top">
-   <img src="./src/game-logos/pokedex.png" alt="Logo" width="auto" height="80">
+   <img src="url=('https://cdn.worldvectorlogo.com/logos/google-sheets-full-logo-1.svg')" alt="Logo" width="auto" height="80">
 
   <h3 align="center">Google Sheets Clone</h3>
 
@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./src/game-logos/screenshot.PNG" alt="Logo" width="auto">
+<img src="./public/sheets-screenshot.PNG" alt="Logo" width="auto">
 
 As an ex-data scientist at Artefact, I used to spend most of my days switching back in forth between Excel and Google Sheets. During that time, I always wondered how Google Team made it work and, thus, decided to replicate it (not as good though, huge respect to them devs!).
 
